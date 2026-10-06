@@ -1,0 +1,29 @@
+
+<body>
+
+<form method="post" action="https://api.web3forms.com/submit">
+<label for="name">Name: </label>
+
+    <input type="text" id="name" name="name">
+    <br><br>
+    <label for="email">Email: </label>
+
+    <input type="text" id="email" name="email">
+
+    <br>
+    <br>
+     <label for="message"> Message: </label>
+
+    <input type="text" id="message" name="message">
+<br><br>
+    <input type="submit">
+
+<input type="hidden" name="access_key" value="737feb10-b6a4-4110-a71f-b06b03fa0e08">
+
+
+
+
+
+
+</form>
+</body>
