@@ -1,0 +1,43 @@
+<style>
+ .icon{
+    height:20px;
+    width:20px;
+    background:blue;
+    border-radius:100%;
+    transform: translateX(-10px);
+   
+ }   
+ .line{
+    height:100px;
+    width:2px;
+    background:gray;
+ }
+ .item{
+    display:flex;
+  gap: 80px;
+}
+
+    </style>
+
+
+<section id="education">
+<h2>Education</h2>
+
+<div class="item">
+    <div class="line">
+        <div class="icon">
+</div>
+    </div>
+
+<div class="texts">
+    <span>2025-Present</span>
+    <h3>University of Example</h3>
+    <p>Bachelor of Science in Computer Science, 2015 - 2019</p>
+</div> </div>
+
+
+
+
+
+
+</section>
