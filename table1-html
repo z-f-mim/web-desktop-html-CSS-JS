@@ -1,0 +1,42 @@
+<style>
+
+
+table,th,td{
+
+    border:2px solid
+}
+</style>
+
+<table>
+<thead>
+   <tr>
+    <th>Day</th>
+    <th> 9:00 PM</th>
+    <th>11:00 PM</th>
+    <th>12:00PM</th>
+   </tr>
+
+
+</thead>
+
+<tr>
+    <td> Sunday</td>
+    <td> Web Tech</td>
+    <td colspan="2">No Class</td>
+</tr>
+<tr>
+    <td> Monday</td>
+    
+    <td colspan="2">No Class</td>
+    <td>OS Lab</td>
+</tr>
+<tr>
+   <td colspan="4">Spring 2025-SWE DIU Schedule</td> 
+</tr>
+
+
+
+
+
+
+</table>
