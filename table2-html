@@ -1,0 +1,85 @@
+<style>
+ table,th,td{
+
+    border:2px solid green ;
+    border-radius: 5px;
+
+
+ }
+ table{
+    background-color: darkgray;
+
+ }
+
+
+
+</style>
+
+<table>
+    <thead>
+        <tr>
+            <th>Day</th>
+            <th>9:00 AM</th>
+            <th>11:00 AM</th>
+            <th>1:00 PM</th>
+            <th>3:00 PM</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3">Sunday</td>
+            <td> Web Technology</td>
+            <td> Database</td>
+            <td rowspan="2" >No Class</td>
+            <td>Programming</td>
+        
+        </tr>
+
+        <tr>
+        <td>HTML</td>
+        <td>CSS</td>
+        <td>JAVA</td>
+        </tr>
+
+        <tr>
+            <td>JavaScript</td>
+            <td rowspan="2">Software engineering</td>
+            <td>Python</td>
+            <td>Lab</td>
+
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td> Computer network</td>
+            <td>Operating System</td>
+            <td>Database Lab</td>
+        </tr>
+        <tr>
+            <td>Data Structure</td>
+            <td>Algorithm</td>
+            <td colspan="2">No class</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Tuesday</td>
+            <td colspan="2">Software engineering lab</td>
+            <td>Web Tech</td>
+            <td>Database</td>
+        </tr>
+        <tr>
+            <td>JAVA</td>
+            <td>Python</td>
+            <td rowspan="2">No Class</td>
+            <td>Project</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td colspan="2">Programming Lab</td>
+            <td>OS</td>
+
+        </tr>
+        <tr>
+            <td colspan="5"> Spring 2025-SWE DIU Schedule</td>
+        </tr>
+    </tbody>
+</table>
