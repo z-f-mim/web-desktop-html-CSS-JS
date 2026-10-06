@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z_f_mim</title>
+
+    <style>
+
+        nav span{
+            color:blue;
+        }
+nav div a{
+    text-decoration: none;
+    margin: 30px;
+    
+}
+nav{
+    display: flex;
+    border-bottom: 3px solid;
+    background-color:whitesmoke;
+    border-color:aliceblue;
+    justify-content: space-between;
+    padding: 2px;
+    align-items: center ;
+}
+body{
+    background-color:ghostwhite;
+    
+   
+}
+#hero{
+     width: 50%;
+     margin: 80px;
+     
+}
+
+#on{
+    color: blue;
+    border: 1px solid;
+    border-radius: 13px;
+    display: inline-block;
+    padding: 4px;
+    background-color: #DBEAFE;
+
+}
+
+
+#hero h1{
+    font-size: 40px;
+}
+
+#cn{
+    font-size: 15px;
+
+}
+/* cc{
+    color: blue;
+} */
+
+#hero a{
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 10px;
+  
+   margin: 5px;
+    text-decoration: none;
+
+}
+
+#q{
+    color: black;
+}
+i {
+    margin-right:10px;
+   
+}
+#second{
+    margin: 80px;
+}
+#second h1{
+    font-size: 30px;
+}
+#second p{
+    font-size: 15px;
+    width: 50%;
+}
+#third{
+    padding: 80px;
+    width: 73%;
+}
+.sm span{
+    border: 2px solid;
+   background-color:#DBEAFE;
+   padding: 6px 8px;
+   border-radius: 5px;
+   margin: 0;
+}
+.sm{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+#fourth{
+    margin: 80px;
+}
+.abc{
+    width: 30%;
+    border: 2px solid black;
+    padding: 60px;
+    border-radius: 7px;
+    display: inline-block;
+    flex-wrap: wrap;
+
+    margin: 7px;
+
+
+}
+.abc span{
+
+    border:2px solid ;
+    background-color:#DBEAFE;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0;
+}
+
+#fifth{
+    margin: 80px;
+    
+    
+    
+}
+#all{
+display: flex;
+    gap: 15px;
+
+}
+#ds{
+   display: flex;          
+    align-items: center;   
+    gap: 15px;          
+    border: 2px solid black;
+
+    border-radius: 16px;       
+    padding: 24px;             
+}
+    
+
+
+
+#bx{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 3px;
+    background:#DBEAFE;
+    
+}
+#wr span{
+    color: blue;
+
+}
+#ca{
+   display: flex;          
+    align-items: center;    
+    gap: 15px;             
+    border: 2px solid black;
+    width: fit-content;        
+    border-radius: 16px;       
+    padding: 24px;             
+}
+#a{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 3px;
+    background:#DBEAFE;
+    
+}
+#b span{
+    color: blue;
+
+}
+
+
+#dm{
+   display: flex;  
+    align-items: center;    
+    gap: 15px;              
+    border: 2px solid black;
+    width: fit-content;        
+    border-radius: 16px;       
+    padding: 24px;             
+}
+#ll{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 3px;
+    background:#DBEAFE;
+    
+}
+#lll span{
+    color: blue;
+
+}
+
+#sf{
+   display: flex;          
+    align-items: center;    
+    gap: 15px;             
+    border: 2px solid black;
+    width: fit-content;       
+    border-radius: 16px;       
+    padding: 24px;             
+}
+#ss{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 3px;
+    background:#DBEAFE;
+    
+}
+#sss span{
+    color: blue;
+
+}
+
+#sixth{
+    margin:10px;
+}
+.item{
+    display: flex;
+}
+
+.line{
+     height: 100px;
+     width: 3px;
+     background-color: black;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 100%;
+        transform: translateX(-10px);
+}
+#kk{
+    border: 2px solid aliceblue;
+}
+
+#seventh{
+    border: 2px solid aliceblue;
+}
+    </style>
+</head>
+<body>
+
+
+    <nav><h2>ZFM<span>.</span></h2>
+<div>
+    <a href="#">About</a>
+    <a href="#">Skills</a>
+    <a href="#">Projects</a>
+    <a href="#sixth">Certifications</a>
+    <a href="#">Contact</a>
+</div></nav>
+
+<section id="hero">
+    <div>
+    <p id="on"><i class="fa-solid fa-code"></i>Software Development & Problem Solving</p>
+    
+    <h1 >Zannatul Ferdous Mim</h1>
+    
+    <p id="cn">Passionate programmer dedicated to building structured software systems, mastering Object-Oriented Design, and solving complex algorithmic challenges.</p><br>
+
+<a id="p"href="https://github.com/z-f-mim"><i  class="fa-brands fa-github"></i>GitHub Profile</a>
+
+<a id="q"href="#"><i class="fa-solid fa-envelope"></i>Get In Touch</a>
+
+
+
+    </div>
+
+    
+</section>
+
+<br><br><br><br><br><br><br><br><br>
+
+<section id="second">
+    <h1>About Me</h1>
+    <P>I am a dedicated developer focused on core computing principles, robust logic, and Object-Oriented Software Design. Driven by analytical thinking, I continuously refine my skills in Data Structures, Algorithms, and System Architecture to craft efficient and scalable applications.</P>
+</section>
+    
+
+
+<section id="third">
+    <h1>Technical Skills</h1>
+<div class="sm">
+     <span><i class="fa-brands fa-java"></i>Java</span>
+    <span><i class="fa-solid fa-c"></i>C Programming</span>
+    <span><i class="fa-solid fa-boxes-stacked"></i>Object-Oriented Programming</span>
+    <span><i class="fa-solid fa-diagram-project"></i>Data structured</span>
+    <span><i class="fa-solid fa-network-wired"></i>Algorithms</span>
+<span><i class="fa-solid fa-database"></i>Database Management(DBMS)</span>
+    <span><i class="fa-solid fa-computer"></i>Computer Architecture</span>
+    <span><i class="fa-solid fa-calculator"></i>Discrete Structure</span>
+
+    </div>
+</section>
+
+<section id="fourth">
+    <h1>Featured Projects</h1>
+
+    
+    <div class="abc"><h3>Hospital Management System.</h3>
+    <p>A comprehensive software solution designed to streamline hospital operations, structure patient record workflows, and optimize appointment scheduling using robust OOP principles.</p>
+
+<span>Java</span>
+<span>OOP</span>
+<span>Data Structures</span>
+</div>
+
+   
+        <div class="abc"><h3>Book Store Management System</h3>
+    <p>An interactive system built to handle inventory operations, order calculations, and detailed book records with emphasis on object modularity and reliable data structures.</p>
+
+<span>Java</span>
+<span>OOP Concept</span>
+<span>File Management</span></div>
+
+    </div>
+</section>
+
+
+<section id="fifth">
+    <h1>Certifications & Knowledge</h1>
+    <br>
+
+
+<div id="all">
+    <div id="ds">
+    
+    <div id="bx"><i class="fa-solid fa-table-cells-large"></i></div>
+    <div id="wr">
+        <h3>Database Structure</h3>
+        <h5>Relational Models, Schema Design & Optimization</h5>
+        <h5><span>Core Proficiency</span></h5>
+    </div>
+</div>
+
+
+<div id="ca">
+    
+    <div id="a"><i class="fa-brands fa-centos"></i></div>
+    <div id="b">
+        <h3>Computer Architecture</h3>
+        <h5>Hardware Organization, Memory & Processor Logic
+</h5>
+        <h5><span>Core Proficiency</span></h5>
+    </div>
+</div>
+
+
+
+
+<div id="dm">
+    
+    <div id="ll"><i class="fa-solid fa-calculator"></i></div>
+    <div id="lll">
+        <h3>Discrete Mathematics</h3>
+        <h5>Logic, Set Theory, Graph Theory & Algorithms
+</h5>
+        <h5><span>Core Proficiency</span></h5>
+    </div>
+</div>
+
+
+<div id="sf">
+    
+    <div id="ss"><i class="fa-solid fa-calculator"></i></div>
+    <div id="sss">
+        <h3>Discrete Mathematics</h3>
+        <h5>Logic, Set Theory, Graph Theory & Algorithms
+</h5>
+        <h5><span>Core Proficiency</span></h5>
+    </div>
+</div>
+</div>
+
+<br>
+<br>
+<br>
+
+
+<section id="sixth">
+
+<h1> Education</h1>
+
+<div class="item">
+<div class="line"></div>
+    <div class="icon"></div>
+<div class="asd">
+    <span>2025-Present</span>
+    <h3> B.Sc. in Software Engineering</h3>
+    <h5>Daffodil International University (DIU)</h5>
+</div>
+
+</div>
+
+
+
+
+
+
+
+</section>
+
+<br>
+<br>
+<br>
+<br>
+
+<section id="seventh">
+
+     <h1> Get In Touch</h1>
+    <p>Feel free to reach out for collaborations, discussions, or inquiries.</p>
+
+   <div id="kk" ><a href="https://github.com/z-f-mim"><i  class="fa-brands fa-github"></i>github.com/z-f-mim</a></div>
+
+
+
+</section>
+</body>
+</html>
