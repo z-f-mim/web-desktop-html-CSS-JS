@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        </header>
+
+        <main>
+        <section>
+            Education: BPATC | DIU
+        </section>
+        <section>
+             Hobby: Being with me
+        </section>
+        <article> My story:</article>
+
+        <a href="https://www.google.com/" target=_main"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMhtCHWrNb2M7tAlOyQV4EFSTLSNBoyv7XR5pvLhEScg&s=10" alt="Google" height="100"> </a>
+
+      
+      <aside>this is an ad</aside>
+
+      <span>Hello Bangladesh!</span>
+
+      <div>
+        <p>Hi</p>
+        <p>Assalamu Alaikum</p>
+      </div>
+
+      <div>
+        <p>Bye</p>
+        <p>Tata</p>
+      </div>
+      <hr>
+      <hr>
+      <hr>
+
+
+      <ul>
+        <li> Apple</li>
+             <ul>
+               <li> Color: green</li>
+               <li>Season: summer  </li> 
+            </ul>
+        <li> Banana</li>
+        <li>Mango</li>
+
+         <ul>
+               <li> Color:Yellow</li>
+               <li>Season: Summer  </li> 
+            </ul>
+      </ul>
+
+      <ol>
+        <li>Apple</li>
+             <ul>
+               <li> Color: green</li>
+               <li>Season: summer  </li> 
+               </ul>
+        <li>Orange</li>
+
+               <ul>
+                  <li> Color:Yellow</li>
+                   <li>Season: Summer  </li> 
+                </ul>
+      </ol>
+
+           <table>
+            <thead>
+            <caption> Fruits</caption>
+            
+                   <tr>
+                    <th> Name</th>
+                    <th> Color</th>
+                   </tr>
+              </thead>
+              <tbody>
+             <tr>
+                <td> Apple</td>
+                <td> Red</td>
+             </tr>
+
+             <tr>
+                <td> Banana</td>
+                <td> Yellow</td>
+             </tr>
+             <tr>
+                <td> Mango</td>
+                <td> Green</td>
+             </tr>
+            </tbody>
+
+           </table>
+           <hr>
+           <hr>
+
+
+
+
+           <table>
+            <thead>
+            <caption> Fruits</caption>
+            
+                   <tr>
+                    <th colspan="2"> FruitDetails </th>
+                    
+                   </tr>
+              </thead>
+              <tbody>
+             <tr>
+                <td> Apple</td>
+                <td> Red</td>
+             </tr>
+
+             <tr>
+                <td> Banana</td>
+                <td> Yellow</td>
+             </tr>
+             <tr>
+                <td> Mango</td>
+                <td> Green</td>
+             </tr>
+            </tbody>
+
+           </table>
+           <hr>
+   </main>
+
+
+
+    <h4>Registration Form</h4>
+
+    <form action="/action.php">
+
+    <input type="text" placeholder="username">
+    <input type="password" placeholder="password">
+         <h4>Select your class</h4>
+    <label for="101">
+    <input type="radio" value="class XI" name="class" id="101"> class XI
+    </label>
+    <label for="102">
+     <input type="radio" value="class XII" name="class" id="102"> class XII
+    </label>
+
+    <h3>Select your subjects</h3>
+   <label for="Math">
+    <input type="checkbox" value="Math" name="subjects" id="101"> Math
+   </label>
+    <label for="Chemistry">
+    <input type="checkbox" value="Chemistry" name="subjects" id="102"> Chemistry
+   </label>
+    <label for="Biology">
+    <input type="checkbox" value="Biology" name="subjects" id="103"> Biology
+   </label>
+    <label for="Physics">
+    <input type="checkbox" value="Physics" name="subjects" id="104"> Physics
+   </label>
+    <label for="History">
+    <input type="checkbox" value="History" name="subjects" id="105"> History
+   </label>
+<br><br>
+ Select your city:
+   <br>
+ 
+ <select name="city">
+<option value="Dhaka">Dhaka</option>
+<option value="Chittagong">Chittagong</option>
+<option value="Rajshahi">Rajshahi</option>
+<option value="Sylhet">Sylhet</option>
+<option value="Barishal">Barishal</option>
+
+
+ </select>
+
+
+
+<br>
+
+<br>
+
+
+
+  <textarea name="Feedback" id="101" placeholder="Please give your valuable feedback here" rows="6"> Please give your valuable feedback here!!! </textarea>
+   <br>
+   <input type="Submit" value="Submit">
+
+</form>
+<hr>
+<hr>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ESnrn1kAD4E?si=ILJz5-u3LFqaV-LZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<hr>
+<br>
+<iframe src="https://google.com"></iframe>
+<br>
+<iframe width="560" height="315" src="https://en.wikipedia.org/wiki/Bangladesh"></iframe>
+
+   <hr>
+
+   <!-- <video src="https://www.youtube.com/embed/eLXzmujyqgo?si=Qz5YGlcV-V6LD0Hp" >My video</video> -->
+   <!-- <video width="560" height="315"  src="/myVideo.mov" controls autoplay loop> my video</video> -->
+      
+
+
+    <footer>
+        <h5>Contact me at @z_f_mim</h5>
+    </footer>
+    
+</body>
+</html>
