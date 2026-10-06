@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        table{
+            border: 2px solid;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr1gkgxotSULsfm9-jLnf0fAWkMeq-fjOTngWa03ROdg&s=10'),url('https://www.noshtastic.com/wp-content/uploads/2019/10/Air-Fryer-Burger-recipe.jpg');
+            background-size: cover;
+
+        }
+
+        input[type="submit"]{
+            margin:0 auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Computer club Registration Form</h1>
+        <br>
+        <br>
+
+        <table >
+
+            <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text" id="name" name="name"></td>
+        </tr>
+        <tr>
+        <td><label for="pn">Phone Number:</label></td>
+        <td><input type="tel" id="pn" name="number"></td>
+        </tr>
+
+
+        <tr>
+        <td><label for="dob">Date Of Birth:</label></td>
+        <td><input type="date" id="dob" name="dateofbirth"></td>
+    </tr>
+
+
+      <tr> 
+        
+    
+            <td><label for="gd">Gender: </label></td>
+
+       <td><input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+        
+
+       <input type="radio" id="Female" name="gender" Value="female">
+       <label for="Female">Female</label>
+
+
+       <input type="radio" id="other" name="gender" value="other">
+       <label for="male">Other</label>
+       </td>
+</tr>
+
+       
+<tr>
+ <td><label for="dpt">Department: </label></td>
+ 
+
+ <td><select id="dpt" name="department">
+
+    <option value="">Select Department</option>
+    <option value="swe">Software Engineering</option>
+    <option value="cse">Computer sc</option>
+    <option value="nfe">hdgyubd</option>
+
+
+ </select>
+ </td>
+ </tr>
+
+<tr>
+ <td><label for="si">Self Introduction:</label></td>
+ <td><textarea id="si" name="intro" placeholder="Tell us about yourself..."></textarea></td>
+
+
+
+ <tr>
+
+
+<td><P>Areas of Interest:</P></td>
+
+<td>
+<input type="checkbox" id="web" name="interest" value="web">
+<label for="web">Web Development</label>
+<br>
+
+
+<input type="checkbox" id="ai" name="interest" value="ai">
+<label for="ai">Web Development</label>
+<br>
+
+
+<input type="checkbox" id="cs" name="interest" value="ai">
+<label for="ai">Web Development</label>
+
+</td></tr>
+
+<tr>
+    <td>
+<input type="submit" value="Submit Registration">
+</td>
+
+<td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti suscipit dignissimos rerum sapiente quas ipsum qui veritatis commodi, consequuntur dolor a temporibus repellat modi debitis, ipsam earum iure ipsa amet.</td>
+</tr>
+
+
+</table>
+    </form>
+</body>
+</html>
