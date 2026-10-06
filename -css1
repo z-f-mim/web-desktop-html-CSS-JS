@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.cdnfonts.com/css/impact" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link href="style.css" rel="stylesheet"> -->
+    <style>
+        /* p{
+            color:;
+        }
+        body{
+            background-color:red;
+        }
+        section{
+
+            background-color: darkgreen;
+        } */
+       
+        h1{
+            font-size:50px ;
+            /* font-family:Impact; */
+            font-weight: 100;
+            text-align: right;
+            text-decoration: line-through ;
+        }
+        p{
+            line-height: 5;
+            text-transform: uppercase;
+        }
+
+    </style>
+</head>
+<body>
+     <section id="hero">
+        <p>Software Development & Problem Solving</p>
+        <h1>Zannatul Ferdous Mim</h1>
+        <p>Passionate programmer dedicated to building structured software systems, mastering Object-Oriented Design, and solving complex algorithmic challenges.</p>
+        <a href="https://github.com">GitHub Profile</a>
+        <a href="https://github.com">Get In Touch</a>
+
+        </section >
+        <section id="about">
+
+        <h2 > About me</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, delectus temporibus. Consectetur, quae fugit vitae omnis, laudantium minima nihil assumenda deserunt ratione voluptates ad in praesentium explicabo tempore. Maiores, aliquid.</p>
+   
+
+
+    </section>
+
+    <section id="Skills">
+        <h2>Technical Skills</h2>
+
+    </section>
+
+<section id="projects">
+    <h2>Featured Projects</h2>
+    <div><h3>Hospital Management System</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quia similique soluta iusto itaque quas, deleniti dolorum quae minima, exercitationem atque molestias eum et? Ad possimus magni obcaecati quae molestias?</p></div>
+ <div><h3>Book store managemnet system</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quia similique soluta iusto itaque quas, deleniti dolorum quae minima, exercitationem atque molestias eum et? Ad possimus magni obcaecati quae molestias?</p></div>
+
+
+
+   
+</section>
+
+<section id="contact">
+
+
+    <h2>Get In Touch</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sapiente in itaque! Odit porro veniam .</p>
+<a href="https://github.com">github.com?z-f-mim</a>
+
+
+</section>
+
+
+
+
+
+
+    
+</body>
+</html>
